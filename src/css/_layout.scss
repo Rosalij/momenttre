@@ -100,11 +100,11 @@ article {
     box-shadow: base.$box-shadow;
     padding: 3em;
     text-align: center;
-
     background-image: url("../images/image1.jpg");
     background-size: cover;
     background-position: center;
     height: fit-content;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 

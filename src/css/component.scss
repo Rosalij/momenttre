@@ -52,7 +52,7 @@ article {
 }
 
 img {
-    @include base.border(10px, 1em, base.$background-color1, true)
+    @include base.border(10px, 1em, base.$background-color1, true);
 }
 
 #sasstext {
