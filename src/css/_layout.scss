@@ -34,9 +34,14 @@ header {
         top: 0;
         height: 100%;
         right: 0;
-        background-color: base.$dark-background;
+        background-color: base.$background-color1;
         z-index: 100;
 
+        a {
+
+            padding: 2em;
+            color: white;
+        }
     }
 
 }
@@ -144,14 +149,16 @@ section {
     }
 
     .laptopmenu {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
         background-color: base.$background-color2;
         width: 100%;
-ul {
-    display: flex;
-    justify-content: center;
-}
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+
         a {
             color: base.$font-color;
         }
@@ -161,9 +168,10 @@ ul {
 
 @media (prefers-color-scheme: dark) {
 
-body {
-background-color: base.$dark-background;
-}
+    body {
+        background-color: base.$dark-background;
+    }
+
     header {
         background-color: base.$dark-background-color1;
 
